@@ -3,6 +3,7 @@ import { ThemeContext } from "./ThemeProvider";
 import { Tooltip, IconButton, Zoom } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Brightness4, Brightness7 } from "@material-ui/icons";
+import { useTranslation } from 'react-i18next';
 
 const useStyles = makeStyles((theme) => ({
     iconButton: {
@@ -21,17 +22,17 @@ const useStyles = makeStyles((theme) => ({
 export const ThemeToggle = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     const classes = useStyles();
-
+    const { t } = useTranslation();
     return (
         <Tooltip
-            title={"Toggle theme"}
-            placement="right"
+            title={t('Home.ToggleTheme')}
+            placement="bottom"
             TransitionComponent={Zoom}
         >
             <IconButton
                 color="inherit"
                 onClick={toggleTheme}
-                aria-label={"Toggle "}
+                aria-label={"Toggle"}
                 className={classes.iconButton}
             >
                 {theme === "light" ? (

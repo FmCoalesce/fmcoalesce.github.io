@@ -21,12 +21,12 @@ const useStyles = makeStyles((theme) => ({
 export const LangSwitch = () => {
     const { theme } = useContext(ThemeContext);
     const classes = useStyles();
-    const { i18n } = useTranslation();
+    const { i18n,t} = useTranslation();
 
     return (
         <Tooltip
-            title={"Toggle theme"}
-            placement="right"
+            title={t('Home.ToggleLang')}
+            placement="bottom"
             TransitionComponent={Zoom}
         >
             <IconButton

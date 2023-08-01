@@ -17,6 +17,8 @@ export default{
         meta_city:'Shanghai',
         meta_country:'China',
         meta_job:'front-end engineer',
+        ToggleTheme:'Toggle theme',
+        ToggleLang:'Toggle language',
     },
     Project:{
  

@@ -18,6 +18,8 @@ export default {
         meta_city:'上海',
         meta_country:'中国',
         meta_job:'前端开发工程师',
+        ToggleTheme:'切换主题',
+        ToggleLang:'切换语言',
     },
     Project:{
  

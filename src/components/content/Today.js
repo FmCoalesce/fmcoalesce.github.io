@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 export const Today = () => {
     const { t } = useTranslation();
@@ -25,7 +25,7 @@ export const Today = () => {
     var day = days[date.getDay()];
 
     return (
-        <Typography variant="h5" component="h2"   style={{ margin: "0 0 10px 30px" }}>
+        <Typography variant="h5" component="h2"   style={{ margin: "0 0 20px 30px" }}>
             {day === "weekend" ? t('Home.goodWeekend') : time}.
         </Typography>
     );
