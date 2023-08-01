@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.004c7786.css",
-    "main.js": "./static/js/main.7c380ddf.js",
+    "main.js": "./static/js/main.7cd2dd96.js",
     "static/media/leaf.png": "./static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "./static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "./static/media/suicide.9c86cd7138a398c45fa5.png",
@@ -10,10 +10,10 @@
     "static/media/chatify.png": "./static/media/chatify.7206044e0b5cdad44726.png",
     "index.html": "./index.html",
     "main.004c7786.css.map": "./static/css/main.004c7786.css.map",
-    "main.7c380ddf.js.map": "./static/js/main.7c380ddf.js.map"
+    "main.7cd2dd96.js.map": "./static/js/main.7cd2dd96.js.map"
   },
   "entrypoints": [
     "static/css/main.004c7786.css",
-    "static/js/main.7c380ddf.js"
+    "static/js/main.7cd2dd96.js"
   ]
 }
