@@ -1,0 +1,12 @@
+{
+  "colors": {
+    "primary": "#00bfbf",
+    "secondary": "#db61a2",
+    "black": "#111111",
+    "white": "#fafafa",
+    "cardColorWhite": "#DAD7D0",
+    "cardColorDark": "#292A2C",
+    "infoBgWhite": "#fafafa",
+    "infoBgDark": "#101113"
+  }
+}
