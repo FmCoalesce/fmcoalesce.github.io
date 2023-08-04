@@ -2,10 +2,31 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../assets/avatar.jpg";
 import { useTheme } from '@material-ui/core/styles';
-// import Tilt from "react-parallax-tilt";
-
+import { useTranslation } from 'react-i18next';
+import { makeStyles } from '@material-ui/core/styles';
+import vueImg from "../../assets/vue.svg";
+import reactImg from "../../assets/react.svg";
+import htmlImg from "../../assets/html.svg";
+import muImg from "../../assets/material-ui.svg";
+import css3Img from "../../assets/css3.svg";
+import javascriptImg from "../../assets/javascript.svg";
+import typescriptImg from "../../assets/typescript.svg";
+import tailwindcssImg from "../../assets/tailwindcss.svg";
+const useStyles = makeStyles((theme) => ({
+  skillIcons: {
+    padding: '0.25rem 0.75rem',
+    borderRadius: '1.5rem',
+    backgroundColor: '#D9CEBE',
+    margin: '0.2rem',
+    color: '#fff',
+    verticalAlign: 'middle',
+  },
+}));
 function Home2() {
   const theme = useTheme();
+  const { t } = useTranslation();
+
+  const classes = useStyles();
   return (
     <Container fluid className="home-about-section" id="About" style={{ background: theme.info.background }}>
       <Container>
@@ -15,40 +36,29 @@ function Home2() {
           </Col>
           <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" , color: theme.palette.foreground.default}}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            ABOUT <span className="purple">  </span> 
             </h1>
             <p className="home-about-body" style={{ color: theme.palette.foreground.default }}>
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+           {t('About.introduction_job')}
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple">Html,CSS, Javascript and Vue.js. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+              <br />  {t('About.introduction_skill')}
+              <span  className={classes.skillIcons}>  <img src={vueImg}  style={{ width: "20px"} } alt="vue" /> vue</span>
+              <span  className={classes.skillIcons}>  <img src={htmlImg}  style={{ width: "20px"} } alt="html" /> html</span>
+              <span  className={classes.skillIcons}>  <img src={css3Img}  style={{ width: "20px"} } alt="css" /> css</span>
+              <span  className={classes.skillIcons}>  <img src={javascriptImg}  style={{ width: "20px"} } alt="Javascript" /> javascript</span>
+              <span  className={classes.skillIcons}>  <img src={typescriptImg}  style={{ width: "20px"} } alt="typescript" /> typescript</span>
+              {t('About.introduction_build')}
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              {t('About.introduction_spare')}
+              <span  className={classes.skillIcons}>  <img src={reactImg}  style={{ width: "20px"} } alt="react" /> react</span>
+              <span  className={classes.skillIcons}>  <img src={muImg}  style={{ width: "20px"} } alt="material" /> material-ui</span>
+              <span  className={classes.skillIcons}>  <img src={tailwindcssImg}  style={{ width: "20px"} } alt="tailwindcss" /> tailwindcss</span>
+              {t('About.introduction_F_project')}
+             
+              <br />
+              <br />
+     
             </p>
           </Col>
     

@@ -23,5 +23,13 @@ export default {
     },
     Project:{
  
+    },
+    About:{
+        introduction_job:'我是一名从事前端开发3年多的程序猿，目前就职于上海某互联网公司，主要负责公司内部的前端开发工作。',
+        introduction_like:'我喜欢一些炫酷的东西，同时喜欢研究新的技术，喜欢分享新的技术。',
+        introduction_skill:'在日常工作会我用到',
+        introduction_build:'来构建和维护Web应用程序和设计系统。',
+        introduction_spare:'业余时间我也会用到',
+        introduction_F_project:'来做一些个人喜欢的项目。(比如这个portfolio)',
     }
     }
