@@ -30,7 +30,7 @@ html {
 };
 body {
   overflow-x: hidden;
-  scroll-behavior: smooth;
+
   width: 100vw;
     transition: all 0.5s ease;
 }
@@ -244,13 +244,14 @@ p {
   .project-card-view {
     background-color: transparent !important;
     opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
     height: 100% !important;
   }
   .project-card-view:hover {
     
     background-color: transparent !important;
-        box-shadow: inset 6px 6px 30px rgba(246,246,246,.2);
-        transition: all .3s ease;
+    box-shadow: inset 6px 6px 30px rgba(246,246,246,.2);
+    transition: all .3s ease;
     transform: scale(1.1) !important;
     overflow: hidden !important;
   }

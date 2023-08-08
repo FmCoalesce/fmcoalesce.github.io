@@ -18,10 +18,10 @@ const useStyles = makeStyles((theme) => ({
   skillIcons: {
     padding: '0.25rem 0.75rem',
     borderRadius: '1.5rem',
-    backgroundColor: '#D9CEBE',
+    backgroundColor: theme.palette.iconBackground.default,
     margin: '0.2rem',
     display:"inline-block",
-    color: '#fff',
+    color: theme.palette.iconColor.default,
     verticalAlign: 'middle',
   },
 }));
@@ -29,7 +29,7 @@ function Home2() {
   AOS.init({
     duration : 1000,
     easing: 'ease-out-back',  
-    delay: 600
+    delay: 0
 })
   const theme = useTheme();
   const { t } = useTranslation();
@@ -39,7 +39,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="About" style={{ background: theme.info.background }}>
       <Container>
         <Row>
-        <Col md={12} className="my-avatar">
+        <Col md={12} className="my-avatar" data-aos="zoom-in-down">
           <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
           <Col md={12} className="home-about-description">
@@ -61,7 +61,7 @@ function Home2() {
               <span  className={classes.skillIcons}>  <img src={muImg}  style={{ width: "20px"} } alt="material" /> material-ui</span>
               <span  className={classes.skillIcons}>  <img src={tailwindcssImg}  style={{ width: "20px"} } alt="tailwindcss" /> tailwindcss</span>
               {t('About.introduction_F_project')}</p> 
-             
+              <p data-aos="zoom-in-left">{t('About.introduction_contact')}</p> 
               <br />
               <br />
      

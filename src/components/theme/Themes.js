@@ -25,7 +25,10 @@ export const LightTheme = responsiveFontSizes(
       },
       foreground: {
         default: black,
-      }
+      },
+      iconBackground: { default: '#000000'},
+      iconColor: { default: '#ffffff' },
+  
     },
     typography: {
       fontSize: 16,
@@ -125,7 +128,8 @@ export const DarkTheme = responsiveFontSizes(
       foreground: {
         default: white,
       },
-     
+      iconBackground: { default: '#f5f5f5'},
+      iconColor: { default: '#000000' },
     },
     info: {
       background: infoBgDark,

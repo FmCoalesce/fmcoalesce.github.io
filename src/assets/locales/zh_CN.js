@@ -25,11 +25,12 @@ export default {
  
     },
     About:{
-        introduction_job:'我是一名从事前端开发3年多的程序猿，目前就职于上海某互联网公司，主要负责公司内部的前端开发工作。',
+        introduction_job:'嗨！我是一名从事前端开发3年多的程序猿，目前就职于上海某互联网公司。',
         introduction_like:'我喜欢一些炫酷的东西，同时喜欢研究新的技术，喜欢分享新的技术。',
-        introduction_skill:'在日常工作我主要用',
-        introduction_build:'来构建和维护Web应用程序和设计系统。',
-        introduction_spare:'业余时间也会用到',
-        introduction_F_project:'来做一些个人喜欢的项目。(比如这个portfolio)',
+        introduction_skill:'我擅长使用',
+        introduction_build:'构建引人瞩目且稳定的网站，始终追求用户友好的在线体验。',
+        introduction_spare:'除了工作，我也会用一些其他技术，例如',
+        introduction_F_project:'等其他工具创造个人喜欢的炫酷网站。(比如这个portfolio)',
+        introduction_contact:'热烈欢迎与有共同爱好的人互相交流（记得call我）。如果你需要一位有着工作经验、充满激情的开发者，非常期待能与您合作！',
     }
     }

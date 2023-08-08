@@ -26,9 +26,10 @@ export default{
     About:{
         introduction_job:'I am a front-end developer with more than 3 years of working experience. I am currently working in an Internet company in Shanghai, mainly responsible for the front-end development work within the company. ',
         introduction_like:'I like some cool things, and I like to study new technologies and share new technologies.',
-        introduction_skill:'I use',
-        introduction_build:'in my day job to build and maintain web applications and design systems.',
-        introduction_spare:'In my spare time, I also use',
-        introduction_F_project:'to do my favorite projects. (Like this portfolio)',
+        introduction_skill:'I specialize in using',
+        introduction_build:'to craft eye-catching websites, always aiming for user-friendly online experiences.',
+        introduction_spare:'Beyond my professional work, I have a passion for creating cool websites using',
+        introduction_F_project:' I love translating creative ideas into digital creations with unique designs. (Like this portfolio)',
+        introduction_contact:'Apart from my work, I am also excited about connecting with like-minded individuals who share the same interests. If you are looking for an experienced and enthusiastic developer, I am excited to collaborate and create stunning web experiences together！',
     }
 }   
