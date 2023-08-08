@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../assets/avatar.jpg";
+import myImg from "../../assets/avatar.png";
 import { useTheme } from '@material-ui/core/styles';
 import { useTranslation } from 'react-i18next';
 import { makeStyles } from '@material-ui/core/styles';
@@ -12,17 +12,25 @@ import css3Img from "../../assets/css3.svg";
 import javascriptImg from "../../assets/javascript.svg";
 import typescriptImg from "../../assets/typescript.svg";
 import tailwindcssImg from "../../assets/tailwindcss.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const useStyles = makeStyles((theme) => ({
   skillIcons: {
     padding: '0.25rem 0.75rem',
     borderRadius: '1.5rem',
     backgroundColor: '#D9CEBE',
     margin: '0.2rem',
+    display:"inline-block",
     color: '#fff',
     verticalAlign: 'middle',
   },
 }));
 function Home2() {
+  AOS.init({
+    duration : 1000,
+    easing: 'ease-out-back',  
+    delay: 600
+})
   const theme = useTheme();
   const { t } = useTranslation();
 
@@ -35,26 +43,24 @@ function Home2() {
           <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
           <Col md={12} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" , color: theme.palette.foreground.default}}>
+            <h1 data-aos="zoom-in-up" style={{ fontSize: "2.6em" , color: theme.palette.foreground.default}}>
             ABOUT <span className="purple">  </span> 
             </h1>
-            <p className="home-about-body" style={{ color: theme.palette.foreground.default }}>
-           {t('About.introduction_job')}
-              <br />
-              <br />  {t('About.introduction_skill')}
+            <p className="home-about-body"  style={{ color: theme.palette.foreground.default }}  >
+            <p data-aos="zoom-in-left">{t('About.introduction_job')}</p> 
+            <p data-aos="zoom-in-right" > {t('About.introduction_skill')}
               <span  className={classes.skillIcons}>  <img src={vueImg}  style={{ width: "20px"} } alt="vue" /> vue</span>
               <span  className={classes.skillIcons}>  <img src={htmlImg}  style={{ width: "20px"} } alt="html" /> html</span>
               <span  className={classes.skillIcons}>  <img src={css3Img}  style={{ width: "20px"} } alt="css" /> css</span>
               <span  className={classes.skillIcons}>  <img src={javascriptImg}  style={{ width: "20px"} } alt="Javascript" /> javascript</span>
               <span  className={classes.skillIcons}>  <img src={typescriptImg}  style={{ width: "20px"} } alt="typescript" /> typescript</span>
-              {t('About.introduction_build')}
-              <br />
-              <br />
-              {t('About.introduction_spare')}
+              {t('About.introduction_build')}</p> 
+          
+              <p data-aos="zoom-in-right" >{t('About.introduction_spare')}
               <span  className={classes.skillIcons}>  <img src={reactImg}  style={{ width: "20px"} } alt="react" /> react</span>
               <span  className={classes.skillIcons}>  <img src={muImg}  style={{ width: "20px"} } alt="material" /> material-ui</span>
               <span  className={classes.skillIcons}>  <img src={tailwindcssImg}  style={{ width: "20px"} } alt="tailwindcss" /> tailwindcss</span>
-              {t('About.introduction_F_project')}
+              {t('About.introduction_F_project')}</p> 
              
               <br />
               <br />

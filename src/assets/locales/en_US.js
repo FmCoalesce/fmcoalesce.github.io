@@ -3,7 +3,7 @@ export default{
     Home:{
         name:"Hey, I'm Maksim Hsu",
         introduction:'a unknown',
-        job:'front-end engineer from China',
+        job:'front-end developer from China',
         goodMorning:'Have a good morning',
         goodAfternoon:'Have a good afternoon',
         goodEvening:'Have a good evening',
@@ -24,7 +24,7 @@ export default{
  
     },
     About:{
-        introduction_job:'I am a front-end engineer with more than 3 years of working experience. I am currently working in an Internet company in Shanghai, mainly responsible for the front-end development work within the company. ',
+        introduction_job:'I am a front-end developer with more than 3 years of working experience. I am currently working in an Internet company in Shanghai, mainly responsible for the front-end development work within the company. ',
         introduction_like:'I like some cool things, and I like to study new technologies and share new technologies.',
         introduction_skill:'I use',
         introduction_build:'in my day job to build and maintain web applications and design systems.',

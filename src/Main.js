@@ -8,12 +8,13 @@ import { LangSwitch } from './components/lang/LangSwitch'
 import Mouse from './components/content/Mouse'
 
 export default function Main() {
+
   return (
-    <div className='main'>
+    <div className='main' >
          <ThemeToggle />
          <LangSwitch />
           <Home/>
-          <About/>
+          <About data-aos="fade-up" />
           <Projects/>
           <Resume/>
           <Mouse/>

@@ -8,8 +8,8 @@ function ProjectCards(props) {
   const theme = useTheme();
   return (
     <Card className="project-card-view" style={{color:theme.palette.foreground.default}}>
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ background: theme.info.card }} />
-      <Card.Body  style={{ background: theme.info.card }}>
+      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{  }} />
+      <Card.Body  style={{  }}>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
