@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.fa925745.css",
-    "main.js": "./static/js/main.580157d2.js",
-    "static/media/avatar.png": "./static/media/avatar.b6a30ee9106831e2a77c.png",
+    "main.js": "./static/js/main.4ccaa78b.js",
     "static/media/leaf.png": "./static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "./static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "./static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/codeEditor.png": "./static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/blog.png": "./static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/chatify.png": "./static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/avatar.png": "./static/media/avatar.a19cbd8e6c70fba7bfb5.png",
     "static/media/typescript.svg": "./static/media/typescript.befa3e9106de6d2fc2291cfbf0741d79.svg",
     "static/media/react.svg": "./static/media/react.56271c01999568ebfff47b53ffab3914.svg",
     "index.html": "./index.html",
@@ -19,10 +19,10 @@
     "static/media/html.svg": "./static/media/html.7ec30f4031548a1a5b80c599802cd222.svg",
     "static/media/vue.svg": "./static/media/vue.c18c731b049f16264df2b092a8ff69ac.svg",
     "main.fa925745.css.map": "./static/css/main.fa925745.css.map",
-    "main.580157d2.js.map": "./static/js/main.580157d2.js.map"
+    "main.4ccaa78b.js.map": "./static/js/main.4ccaa78b.js.map"
   },
   "entrypoints": [
     "static/css/main.fa925745.css",
-    "static/js/main.580157d2.js"
+    "static/js/main.4ccaa78b.js"
   ]
 }
