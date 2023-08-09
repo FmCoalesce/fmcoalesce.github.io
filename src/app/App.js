@@ -1,6 +1,5 @@
 // import React, { lazy ,Suspense} from "react";
-import React, { Suspense} from "react";
-import DisplacementSphere from '../components/background/DisplacementSphere';
+import React, { Suspense,useEffect,useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HelmetMeta } from "./HelmetMeta";
@@ -20,6 +19,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //   }));
 export const App = () => {
     logCredits();
+      const handleResize = () => {
+        let flag = navigator.userAgent.match(
+          /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+      );
+      if (flag) {
+        window.location.reload()
+        }
+      };
+      useEffect(() => {
+        // 监听
+        window.addEventListener("resize", handleResize);
+        // 销毁
+        return () => window.removeEventListener("resize", handleResize);
+      });
     return (
         <ThemeProvider>
             <CssBaseline />
