@@ -189,13 +189,14 @@ p {
    border-radius: 20%;
  }
  .scrollIndicator {
-  border: 3px solid var(--color);
+  border: 2px solid var(--color);
   border-radius: 20px;
   width: 26px;
   height: 38px;
   position: fixed;
   bottom: 12%;
   left: 47%;
+  opacity: 0.5;
   transition-property: opacity;
   transition-duration: var(--durationL);
   transition-timing-function: ease;

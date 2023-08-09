@@ -12,14 +12,9 @@ export default function Mouse() {
     return () => document.removeEventListener('scroll', handleScroll)
   }, [visibleBackTopBtn])
 
-  // 滚动事件监听函数
   const handleScroll = () => {
     const scrollTop = window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop  || 0
-    // scrollTop 为距离滚动条顶部高度
-    // scrollHeight 为整个文档高度
-    const scrollHeight =  document.body.scrollHeight || document.documentElement.scrollHeight  || 0
-    // 我们设定当滚动的距离大于 200 时，显示 【返回顶部】按钮
-    if (scrollTop >= (scrollHeight-1300)) {
+    if (scrollTop >= 300) {
       setVisibleBackTopBtn(false)
     } else {
       setVisibleBackTopBtn(true)

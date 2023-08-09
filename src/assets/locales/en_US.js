@@ -24,7 +24,8 @@ export default{
  
     },
     About:{
-        introduction_job:'Hey,there.I am a front-end developer with more than 3 years of working experience. I am currently working in an Internet company in Shanghai, mainly responsible for the front-end development work within the company. ',
+        title:"About me",
+        introduction_job:'Hi,there.I am a front-end developer with more than 3 years of working experience. I am currently working in an Internet company in Shanghai, mainly responsible for the front-end development work within the company. ',
         introduction_like:'I like some cool things, and I like to study new technologies and share new technologies.',
         introduction_skill:'I specialize in using',
         introduction_build:'to craft eye-catching websites, always aiming for user-friendly online experiences.',

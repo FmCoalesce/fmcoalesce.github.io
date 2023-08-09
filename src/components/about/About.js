@@ -43,24 +43,24 @@ function Home2() {
           <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
           <Col md={12} className="home-about-description">
-            <h1 data-aos="zoom-in-up" style={{ fontSize: "2.6em" , color: theme.palette.foreground.default}}>
-            ABOUT <span className="purple">  </span> 
-            </h1>
+            <h2 data-aos="zoom-in-up" style={{ fontSize: "2.6em" , color: theme.palette.foreground.default}}>
+            {t('About.title')} <span className="purple">  </span> 
+            </h2>
             <div className="home-about-body"  style={{ color: theme.palette.foreground.default }}  >
             <p data-aos="zoom-in-left">&nbsp;&nbsp;&nbsp;&nbsp;{t('About.introduction_job')}</p> 
-            <p data-aos="zoom-in-right" > {t('About.introduction_skill')}
+            <p data-aos="zoom-in-right" > &nbsp;&nbsp;&nbsp;&nbsp;{t('About.introduction_skill')}
               <span  className={classes.skillIcons}>  <img src={htmlImg}  style={{ width: "20px"} } alt="html" /> html</span>
+              <span  className={classes.skillIcons}>  <img src={javascriptImg}  style={{ width: "20px"} } alt="Javascript" /> javascript</span>
               <span  className={classes.skillIcons}>  <img src={css3Img}  style={{ width: "20px"} } alt="css" /> css</span>
               <span  className={classes.skillIcons}>  <img src={vueImg}  style={{ width: "20px"} } alt="vue" /> vue</span>
-              <span  className={classes.skillIcons}>  <img src={javascriptImg}  style={{ width: "20px"} } alt="Javascript" /> javascript</span>
               <span  className={classes.skillIcons}>  <img src={typescriptImg}  style={{ width: "20px"} } alt="typescript" /> typescript</span>
        
               {t('About.introduction_build')}</p> 
           
               <p data-aos="zoom-in-right" >&nbsp;&nbsp;&nbsp;&nbsp;{t('About.introduction_spare')}
-              <span  className={classes.skillIcons}>  <img src={reactImg}  style={{ width: "20px"} } alt="react" /> react</span>
               <span  className={classes.skillIcons}>  <img src={muImg}  style={{ width: "20px"} } alt="material" /> material-ui</span>
               <span  className={classes.skillIcons}>  <img src={tailwindcssImg}  style={{ width: "20px"} } alt="tailwindcss" /> tailwindcss</span>
+              <span  className={classes.skillIcons}>  <img src={reactImg}  style={{ width: "20px"} } alt="react" /> react</span>
               {t('About.introduction_F_project')}</p> 
               <p data-aos="zoom-in-left">&nbsp;&nbsp;&nbsp;&nbsp;{t('About.introduction_contact')}</p> 
               <br />
