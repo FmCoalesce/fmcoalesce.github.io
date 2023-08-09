@@ -32,6 +32,6 @@ export default {
         introduction_build:'构建引人瞩目且稳定的网站，始终追求用户友好的在线体验。',
         introduction_spare:'除了工作，我也会用一些其他技术，例如',
         introduction_F_project:'等其他工具创造个人喜欢的炫酷网站。(比如这个portfolio)',
-        introduction_contact:'热烈欢迎与有共同爱好的人互相交流。如果你需要一位有着工作经验、充满激情的开发者，非常期待能与您合作！',
+        introduction_contact:'热烈欢迎与有共同爱好的人互相交流。另外如果你需要一位有着工作经验、充满激情的开发者，非常期待能与您合作！',
     }
     }
