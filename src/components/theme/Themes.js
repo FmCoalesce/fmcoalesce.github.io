@@ -38,11 +38,11 @@ export const LightTheme = responsiveFontSizes(
       },
       h5: {
         fontWeight: 500,
-        fontFamily: 'canger',
+        
       },
       body1: {
         fontWeight: 500,
-        fontFamily: 'canger',
+        
       },
     },
       info: {
@@ -102,7 +102,7 @@ export const LightTheme = responsiveFontSizes(
       },
       MuiTooltip: {
         tooltip: {
-          fontFamily: 'canger',
+          
           backgroundColor: primary,
           color: black,
           fontSize: 11,
@@ -143,11 +143,11 @@ export const DarkTheme = responsiveFontSizes(
       },
       h5: {
         fontWeight: 500,
-        fontFamily: 'canger',
+        
       },
       body1: {
         fontWeight: 500,
-        fontFamily: 'canger',
+        
       },
     },
     overrides: {
@@ -206,7 +206,7 @@ export const DarkTheme = responsiveFontSizes(
       },
       MuiTooltip: {
         tooltip: {
-          fontFamily: 'canger',
+          
           backgroundColor: primary,
           color: white,
           fontSize: 11,
