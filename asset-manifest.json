@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.71b06808.css",
-    "main.js": "./static/js/main.bbaef5a7.js",
+    "main.js": "./static/js/main.2e923330.js",
     "static/media/leaf.png": "./static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "./static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "./static/media/suicide.9c86cd7138a398c45fa5.png",
@@ -19,10 +19,10 @@
     "static/media/html.svg": "./static/media/html.7ec30f4031548a1a5b80c599802cd222.svg",
     "static/media/vue.svg": "./static/media/vue.c18c731b049f16264df2b092a8ff69ac.svg",
     "main.71b06808.css.map": "./static/css/main.71b06808.css.map",
-    "main.bbaef5a7.js.map": "./static/js/main.bbaef5a7.js.map"
+    "main.2e923330.js.map": "./static/js/main.2e923330.js.map"
   },
   "entrypoints": [
     "static/css/main.71b06808.css",
-    "static/js/main.bbaef5a7.js"
+    "static/js/main.2e923330.js"
   ]
 }
