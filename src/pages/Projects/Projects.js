@@ -21,7 +21,8 @@ function Projects() {
         <p style={{color:theme.palette.foreground.default}}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }} >
+        待续...
+        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }} >
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -45,7 +46,7 @@ function Projects() {
           </Col>
 
 
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
