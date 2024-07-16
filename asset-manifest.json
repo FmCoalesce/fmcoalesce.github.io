@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c6ac61a5.css",
+    "main.js": "./static/js/main.b6e55d47.js",
+    "static/media/leaf.png": "./static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "./static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "./static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/codeEditor.png": "./static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "./static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/portfolio.png": "./static/media/portfolio.28c415742d835b4521c0.png",
+    "static/media/avatar.png": "./static/media/avatar.a19cbd8e6c70fba7bfb5.png",
+    "static/media/typescript.svg": "./static/media/typescript.befa3e9106de6d2fc2291cfbf0741d79.svg",
+    "static/media/react.svg": "./static/media/react.56271c01999568ebfff47b53ffab3914.svg",
+    "index.html": "./index.html",
+    "static/media/javascript.svg": "./static/media/javascript.0a2df2d98816314be4ef84e99b736992.svg",
+    "static/media/tailwindcss.svg": "./static/media/tailwindcss.58a6507687653862be657d2774a1aa14.svg",
+    "static/media/material-ui.svg": "./static/media/material-ui.e7af68879fe32f3089d2532cb0dfa68f.svg",
+    "static/media/css3.svg": "./static/media/css3.f078c911d06e57f47888ea3a1ef99d29.svg",
+    "static/media/html.svg": "./static/media/html.7ec30f4031548a1a5b80c599802cd222.svg",
+    "static/media/vue.svg": "./static/media/vue.c18c731b049f16264df2b092a8ff69ac.svg",
+    "main.c6ac61a5.css.map": "./static/css/main.c6ac61a5.css.map",
+    "main.b6e55d47.js.map": "./static/js/main.b6e55d47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6ac61a5.css",
+    "static/js/main.b6e55d47.js"
+  ]
+}
