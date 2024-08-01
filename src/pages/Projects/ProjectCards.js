@@ -8,16 +8,16 @@ function ProjectCards(props) {
   const theme = useTheme();
   return (
     <Card className="project-card-view" style={{color:theme.palette.foreground.default}}>
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{  }} />
+      <Card.Img variant="top" src={props.imgPath} alt="card-img"  style={{maxHeight:'200px',padding:'5px', objectFit:'contain' }} />
       <Card.Body  style={{  }}>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text >
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
+        {/* <Button variant="primary" href={props.ghLink} target="_blank"> */}
           {/* <BsGithub /> &nbsp; */}
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+          {/* {props.isBlog ? "Blog" : "GitHub"} */}
+        {/* </Button> */}
         {"\n"}
         {"\n"}
 

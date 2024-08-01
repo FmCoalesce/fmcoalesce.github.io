@@ -1,5 +1,4 @@
 import{ React,useEffect,useState }from 'react'
-import { makeStyles } from "@material-ui/core/styles";
 import { useTheme } from '@material-ui/core/styles';
 
 export default function Mouse() {
@@ -20,9 +19,6 @@ export default function Mouse() {
       setVisibleBackTopBtn(true)
     }
   }
- 
-
-    
   return (
     visibleBackTopBtn && <div  className='scrollIndicator' style={{ '--color': theme.palette.foreground.default }}></div>
   )

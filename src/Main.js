@@ -14,7 +14,7 @@ export default function Main() {
          <ThemeToggle />
          <LangSwitch />
           <Home/>
-          <About data-aos="fade-up" />
+          <About/>
           <Projects/>
           <Resume/>
           <Mouse/>

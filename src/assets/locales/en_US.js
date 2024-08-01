@@ -1,7 +1,7 @@
 
 export default{
     Home:{
-        name:"Hey, I'm Maksim Hsu",
+        name:"Hey, I'm Xiong xu",
         introduction:'a unknown',
         job:'front-end developer from China',
         goodMorning:'Have a good morning',
@@ -21,7 +21,9 @@ export default{
         ToggleLang:'Toggle language',
     },
     Project:{
- 
+        portfolio_desc:'This personal website is built with React framework to enable component-based development, and uses Material UI design system to create aesthetically pleasing UI quickly.The website content fully demonstrates personal information, and the responsive web design ensures great browsing experience across devices.',
+        onboard_desc:"HRs can access a simplified workspace, where they can easily track the progress of each new hires onboarding statuses in one glimpse.A complete onboarding process,that simplifies everyone's life and boost new hires retention.",
+        onboard_m_desc:'The user interface designed for new employee onboarding makes complex processes step-by-step, visual, and easy to operate. The company sends automatic invitations to new employees, allowing them to use their phones to step through and unlock content'
     },
     About:{
         title:"About me",

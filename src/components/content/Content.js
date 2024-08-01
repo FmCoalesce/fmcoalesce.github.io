@@ -2,9 +2,7 @@ import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
-import Resume from "../../settings/resume.json";
-import { FirstName } from "../../utils/getName";
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 const useStyles = makeStyles((theme) => ({
     main: {
         marginTop: "auto",

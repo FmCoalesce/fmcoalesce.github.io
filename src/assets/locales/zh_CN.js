@@ -22,7 +22,9 @@ export default {
         ToggleLang:'切换语言',
     },
     Project:{
- 
+        portfolio_desc:'该个人网站通过React框架实现了组件化开发,使用Material UI设计系统快速实现界面美观。网站内容全面展示个人信息,网页采用响应式设计,在各设备上浏览体验优秀。',
+        onboard_desc:'易懂易用的工作台，人事经理们可进入工作后台，轻松地跟踪每个新员工的入职进度，通过完整的入职流程简化复杂程序，提高新员工留存率。',
+        onboard_m_desc:'针对新员工入职所设计的使用界面，将复杂的流程步骤化、可视化、且容易操作。公司会向新员工发送自动邀请，允许他们使用手机逐步前进并解锁内容',
     },
     About:{
         title:"关于我",
@@ -31,7 +33,7 @@ export default {
         introduction_skill:'我擅长使用',
         introduction_build:'构建引人瞩目且稳定的网站，始终追求用户友好的在线体验。',
         introduction_spare:'除了工作，我也会用一些其他技术，例如',
-        introduction_F_project:'等其他工具创造个人喜欢的炫酷网站。(比如这个portfolio)',
+        introduction_F_project:'等其他工具打造个人喜欢的炫酷网站。(比如这个portfolio)',
         introduction_contact:'热烈欢迎与有共同爱好的人互相交流。另外如果你需要一位有着工作经验、充满激情的开发者，非常期待能与您合作！',
     }
     }
