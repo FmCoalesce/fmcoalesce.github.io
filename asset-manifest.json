@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.c6ac61a5.css",
-    "main.js": "./static/js/main.40dd579b.js",
-    "static/media/leaf.png": "./static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/emotion.png": "./static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "./static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/codeEditor.png": "./static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/blog.png": "./static/media/blog.fb8ab7f271a937d5fc01.png",
+    "main.css": "./static/css/main.0153c387.css",
+    "main.js": "./static/js/main.84add75f.js",
+    "static/media/onboard.jpg": "./static/media/onboard.d61297ac58bd0ca3fff9.jpg",
+    "static/media/onboard_m.png": "./static/media/onboard_m.948c064dbf4dae98114a.png",
     "static/media/portfolio.png": "./static/media/portfolio.28c415742d835b4521c0.png",
+    "static/media/learn.png": "./static/media/learn.1c500ca5cfd600f9b463.png",
     "static/media/avatar.png": "./static/media/avatar.a19cbd8e6c70fba7bfb5.png",
     "static/media/typescript.svg": "./static/media/typescript.befa3e9106de6d2fc2291cfbf0741d79.svg",
     "static/media/react.svg": "./static/media/react.56271c01999568ebfff47b53ffab3914.svg",
@@ -18,11 +16,11 @@
     "static/media/css3.svg": "./static/media/css3.f078c911d06e57f47888ea3a1ef99d29.svg",
     "static/media/html.svg": "./static/media/html.7ec30f4031548a1a5b80c599802cd222.svg",
     "static/media/vue.svg": "./static/media/vue.c18c731b049f16264df2b092a8ff69ac.svg",
-    "main.c6ac61a5.css.map": "./static/css/main.c6ac61a5.css.map",
-    "main.40dd579b.js.map": "./static/js/main.40dd579b.js.map"
+    "main.0153c387.css.map": "./static/css/main.0153c387.css.map",
+    "main.84add75f.js.map": "./static/js/main.84add75f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6ac61a5.css",
-    "static/js/main.40dd579b.js"
+    "static/css/main.0153c387.css",
+    "static/js/main.84add75f.js"
   ]
 }
